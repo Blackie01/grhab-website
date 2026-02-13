@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "grhab - Glean and Collate Knowledge on the Go",
+  title: "Grhab - Glean and Collate Knowledge on the Go",
   description:
     "Capture multiple screenshots and instantly save them as PDF. The perfect Chrome extension for productive studying and research.",
   keywords: [
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     "research",
   ],
   openGraph: {
-    title: "grhab - Study Smarter with Screenshot to PDF",
+    title: "Grhab - Study Smarter with Screenshot to PDF",
     description:
       "Capture multiple screenshots and instantly save them as PDF. The perfect Chrome extension for productive studying.",
     type: "website",

@@ -20,9 +20,9 @@ export default function Home() {
 
             {/* Subheadline */}
             <p className="text-lg md:text-xl text-[var(--color-muted)] mb-8 max-w-2xl mx-auto">
-              Capture multiple screenshots from any webpage and instantly export
-              them as a beautiful PDF. Perfect for research, studying, and
-              collecting inspiration.
+              Start by capturing multiple screenshots from any webpage and
+              export them as PDF or save to Google Drive. Perfect for research,
+              studying, collecting inspiration, and more.
             </p>
 
             {/* CTA Buttons */}
@@ -31,7 +31,7 @@ export default function Home() {
               id="download"
             >
               <a
-                href="https://chrome.google.com/webstore"
+                href="https://chromewebstore.google.com/detail/grhab/niobjkkfminkigfgldbccmndlkagidih"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-primary text-base px-8 py-4"
@@ -46,10 +46,10 @@ export default function Home() {
                 Add to Chrome — It&apos;s Free
               </a>
               <a
-                href="#how-it-works"
+                href="#solutions"
                 className="btn btn-outline text-base px-8 py-4"
               >
-                See How It Works
+                Solutions
               </a>
             </div>
           </div>
@@ -61,11 +61,23 @@ export default function Home() {
         <div className="container-main">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-semibold text-[var(--color-foreground)] mb-4">
-              Everything you need to study smarter
+              Building everything you need to learn faster
             </h2>
             <p className="text-[var(--color-muted)] text-lg max-w-2xl mx-auto">
               Simple, fast, and designed for focused learning
             </p>
+          </div>
+
+          {/* Coupon-style sticker */}
+          <div className="flex justify-center mb-8">
+            <div
+              className="relative inline-flex items-center gap-2 px-6 py-2.5 rounded-full border-2 border-dashed border-[var(--color-primary)]/40 bg-[var(--color-accent-bg)]"
+              style={{ transform: "rotate(-2deg)" }}
+            >
+              <span className="text-sm font-semibold tracking-wide text-[var(--color-primary)] uppercase">
+                ✦ For now, use Grhab to:
+              </span>
+            </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -85,11 +97,11 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold text-[var(--color-foreground)] mb-2">
-                Quick Screenshot Capture
+                Capture Multiple Screenshots
               </h3>
               <p className="text-[var(--color-muted)]">
-                Use keyboard shortcuts to capture any part of a webpage
-                instantly. No complicated setup required.
+                Use CMD + Shift + U to capture any webpage instantly. Stack
+                multiple screenshots before hitting the 'Generate PDF' button.
               </p>
             </div>
 
@@ -107,11 +119,11 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold text-[var(--color-foreground)] mb-2">
-                Organize Your Collection
+                Name Your File
               </h3>
               <p className="text-[var(--color-muted)]">
-                Preview all your screenshots in one place. Review, reorder, or
-                remove before exporting.
+                All collated screenshots are stored in your browser memory,
+                temporarily. You can then name your file and ready for export.
               </p>
             </div>
 
@@ -132,7 +144,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold text-[var(--color-foreground)] mb-2">
-                Export to PDF Instantly
+                Export to PDF or Save to Drive
               </h3>
               <p className="text-[var(--color-muted)]">
                 Generate a clean PDF with all your screenshots. Perfect for
@@ -143,58 +155,65 @@ export default function Home() {
         </div>
       </section>
 
-      {/* How It Works Section */}
-      <section className="py-20 bg-[var(--color-muted-bg)]" id="how-it-works">
+      {/* Perfect For Section */}
+      <section className="py-20 bg-[var(--color-muted-bg)]" id="solutions">
         <div className="container-main">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-semibold text-[var(--color-foreground)] mb-4">
-              How it works
+              Perfect for
             </h2>
             <p className="text-[var(--color-muted)] text-lg max-w-2xl mx-auto">
-              Three simple steps to capture and organize your research
+              Whether you&apos;re learning, researching, or creating — Grhab
+              fits right into your workflow
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Step 1 */}
-            <div className="text-center">
-              <div className="w-16 h-16 bg-[var(--color-primary)] text-white rounded-2xl flex items-center justify-center text-2xl font-bold mx-auto mb-6">
-                1
-              </div>
-              <h3 className="text-xl font-semibold text-[var(--color-foreground)] mb-3">
-                Install the Extension
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {/* Students */}
+            <div className="card text-center animate-fade-in">
+              <div className="text-4xl mb-4">📚</div>
+              <h3 className="text-xl font-semibold text-[var(--color-foreground)] mb-2">
+                Students
               </h3>
-              <p className="text-[var(--color-muted)]">
-                Add grhab to Chrome from the Web Store. It&apos;s completely
-                free and takes seconds.
+              <p className="text-[var(--color-muted)] text-sm">
+                Capture lecture slides, course materials, and online resources
+                into organized PDFs for revision.
               </p>
             </div>
 
-            {/* Step 2 */}
-            <div className="text-center">
-              <div className="w-16 h-16 bg-[var(--color-primary)] text-white rounded-2xl flex items-center justify-center text-2xl font-bold mx-auto mb-6">
-                2
-              </div>
-              <h3 className="text-xl font-semibold text-[var(--color-foreground)] mb-3">
-                Capture Screenshots
+            {/* Researchers */}
+            <div className="card text-center animate-fade-in animate-delay-100">
+              <div className="text-4xl mb-4">🔬</div>
+              <h3 className="text-xl font-semibold text-[var(--color-foreground)] mb-2">
+                Researchers
               </h3>
-              <p className="text-[var(--color-muted)]">
-                Press the shortcut key to capture any webpage content. Take as
-                many as you need.
+              <p className="text-[var(--color-muted)] text-sm">
+                Collect findings from multiple sources and compile them into
+                shareable documents effortlessly.
               </p>
             </div>
 
-            {/* Step 3 */}
-            <div className="text-center">
-              <div className="w-16 h-16 bg-[var(--color-primary)] text-white rounded-2xl flex items-center justify-center text-2xl font-bold mx-auto mb-6">
-                3
-              </div>
-              <h3 className="text-xl font-semibold text-[var(--color-foreground)] mb-3">
-                Export as PDF
+            {/* Designers */}
+            <div className="card text-center animate-fade-in animate-delay-200">
+              <div className="text-4xl mb-4">🎨</div>
+              <h3 className="text-xl font-semibold text-[var(--color-foreground)] mb-2">
+                Designers
               </h3>
-              <p className="text-[var(--color-muted)]">
-                Click export and get a beautifully formatted PDF with all your
-                captures.
+              <p className="text-[var(--color-muted)] text-sm">
+                Build inspiration boards by capturing UI patterns, color
+                palettes, and design references from the web.
+              </p>
+            </div>
+
+            {/* Content Creators */}
+            <div className="card text-center animate-fade-in animate-delay-300">
+              <div className="text-4xl mb-4">✍️</div>
+              <h3 className="text-xl font-semibold text-[var(--color-foreground)] mb-2">
+                Content Creators
+              </h3>
+              <p className="text-[var(--color-muted)] text-sm">
+                Gather reference materials, competitor analysis, and visual
+                assets all in one place.
               </p>
             </div>
           </div>
@@ -206,14 +225,14 @@ export default function Home() {
         <div className="container-main">
           <div className="bg-gradient-to-br from-[var(--color-primary)] to-[#7D341B] rounded-2xl p-8 md:p-12 text-center text-white">
             <h2 className="text-3xl md:text-4xl font-semibold mb-4">
-              Ready to study smarter?
+              Ready to learn faster?
             </h2>
             <p className="text-white/80 text-lg mb-8 max-w-xl mx-auto">
-              Join thousands of students and researchers who use grhab to
+              Join students, researchers, and professionals who use Grhab to
               capture and organize their learning.
             </p>
             <a
-              href="https://chrome.google.com/webstore"
+              href="https://chrome.google.com/webstore/detail/grhab/niobjkkfminkigfgldbccmndlkagidih"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center bg-white text-[var(--color-primary)] font-medium px-8 py-4 rounded-lg hover:bg-white/90 transition-all"
@@ -225,7 +244,7 @@ export default function Home() {
               >
                 <path d="M12 0C8.21 0 4.831 1.757 2.632 4.501l3.953 6.848A5.454 5.454 0 0 1 12 6.545h10.691A12 12 0 0 0 12 0zM1.931 5.47A11.943 11.943 0 0 0 0 12c0 6.012 4.42 10.991 10.189 11.864l3.953-6.847a5.45 5.45 0 0 1-6.865-2.29L1.93 5.47zm13.06 2.166a5.454 5.454 0 0 1 2.655 7.727l-3.953 6.848A12.014 12.014 0 0 0 24 12c0-.357-.016-.709-.046-1.058H14.99a5.499 5.499 0 0 1-.001.23z" />
               </svg>
-              Get grhab for Chrome
+              Get Grhab for Chrome
             </a>
           </div>
         </div>

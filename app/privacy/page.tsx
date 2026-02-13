@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Privacy Policy - grhab",
   description:
-    "Learn how grhab handles your data. We are committed to protecting your privacy.",
+    "Learn how Grhab handles your data. We are committed to protecting your privacy.",
 };
 
 export default function PrivacyPolicy() {
@@ -28,7 +28,7 @@ export default function PrivacyPolicy() {
                 Introduction
               </h2>
               <p className="text-[var(--color-muted)] mb-4">
-                grhab (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is
+                Grhab (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is
                 committed to protecting your privacy. This Privacy Policy
                 explains how our Chrome extension handles information when you
                 use our service.
@@ -44,7 +44,7 @@ export default function PrivacyPolicy() {
                 Information We Collect
               </h2>
               <p className="text-[var(--color-muted)] mb-4">
-                grhab is designed with privacy in mind. We collect and process
+                Grhab is designed with privacy in mind. We collect and process
                 minimal data:
               </p>
               <ul className="list-disc list-inside text-[var(--color-muted)] space-y-2">
@@ -73,7 +73,7 @@ export default function PrivacyPolicy() {
                 How We Use Your Information
               </h2>
               <p className="text-[var(--color-muted)] mb-4">
-                The information processed by grhab is used solely to provide the
+                The information processed by Grhab is used solely to provide the
                 extension&apos;s functionality:
               </p>
               <ul className="list-disc list-inside text-[var(--color-muted)] space-y-2">
@@ -107,7 +107,7 @@ export default function PrivacyPolicy() {
                   <strong className="text-[var(--color-foreground)]">
                     No External Servers:
                   </strong>{" "}
-                  grhab does not operate any servers that collect or store your
+                  Grhab does not operate any servers that collect or store your
                   data. The extension works entirely client-side.
                 </li>
                 <li>
@@ -126,7 +126,7 @@ export default function PrivacyPolicy() {
                 Third-Party Services
               </h2>
               <p className="text-[var(--color-muted)] mb-4">
-                grhab may integrate with the following third-party services:
+                Grhab may integrate with the following third-party services:
               </p>
               <ul className="list-disc list-inside text-[var(--color-muted)] space-y-2">
                 <li>
@@ -186,7 +186,7 @@ export default function PrivacyPolicy() {
                 Children&apos;s Privacy
               </h2>
               <p className="text-[var(--color-muted)]">
-                grhab is not intended for use by children under the age of 13.
+                Grhab is not intended for use by children under the age of 13.
                 We do not knowingly collect personal information from children
                 under 13.
               </p>

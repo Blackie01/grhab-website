@@ -22,12 +22,11 @@ export default function Footer() {
                 </svg>
               </div>
               <span className="text-xl font-semibold text-[var(--color-foreground)]">
-                grhab
+                Grhab
               </span>
             </Link>
             <p className="text-[var(--color-muted)] max-w-sm">
-              Study smarter with instant screenshot capture and PDF export.
-              Designed for productive learners.
+              Pick information faster in the age of AI.
             </p>
           </div>
 
@@ -39,27 +38,19 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="#features"
+                  href="/#features"
                   className="text-[var(--color-muted)] hover:text-[var(--color-foreground)] transition-colors"
                 >
-                  Features
+                  Multi-Screenshots to PDF
                 </Link>
               </li>
               <li>
-                <Link
-                  href="#how-it-works"
-                  className="text-[var(--color-muted)] hover:text-[var(--color-foreground)] transition-colors"
-                >
-                  How It Works
-                </Link>
-              </li>
-              <li>
-                <a
-                  href="#download"
-                  className="text-[var(--color-muted)] hover:text-[var(--color-foreground)] transition-colors"
-                >
-                  Download
-                </a>
+                <span className="inline-flex items-center gap-2 text-[var(--color-muted)]/50 cursor-default">
+                  Assistant
+                  <span className="text-[10px] font-semibold uppercase tracking-wider bg-[var(--color-accent-bg)] text-[var(--color-primary)] px-2 py-0.5 rounded-full border border-[var(--color-primary)]/20">
+                    Soon
+                  </span>
+                </span>
               </li>
             </ul>
           </div>
@@ -78,6 +69,14 @@ export default function Footer() {
                   Privacy Policy
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/terms"
+                  className="text-[var(--color-muted)] hover:text-[var(--color-foreground)] transition-colors"
+                >
+                  Terms of Service
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
@@ -85,7 +84,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-[var(--color-border)] mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-[var(--color-muted)] text-sm">
-            © {currentYear} grhab. All rights reserved.
+            © {currentYear} Blhack Labs. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             <span className="text-[var(--color-muted)] text-sm">
