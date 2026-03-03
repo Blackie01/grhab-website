@@ -84,7 +84,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-[var(--color-border)] mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-[var(--color-muted)] text-sm">
-            © {currentYear} Blhack Labs. All rights reserved.
+            © {currentYear} <a href="https://blhacklabs.com" target="_blank" rel="noopener noreferrer" className="text-[var(--color-primary)] hover:text-[var(--color-primary-hover)] transition-colors">Blhack Labs</a>. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             <span className="text-[var(--color-muted)] text-sm">
